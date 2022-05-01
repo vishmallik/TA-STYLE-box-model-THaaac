@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom code*/
+body{
+    color: white;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color: rgb(2, 2, 19);
+    color: white;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    PADDING-bottom: 150PX;
+}
+h1{ 
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px auto;
+
+}
+nav{
+    text-align: center;
+    margin-bottom: 200px;
+}
+a{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px auto;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+}
+.hr1{
+    margin-bottom:50px;
+    border:none;
+    background-color: rgba(255, 255, 255, 0.24);
+    height: 0.1px;
+}
+.article0{
+    width: 1400px;
+    margin: 20px auto;
+}
+.headerpara{
+    text-transform: uppercase;
+    font-size: 20px;  
+}
+.section1{
+    background-color: rgb(63, 63, 175);
+}
+.article1{
+  
+    width:1400px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+   
+    font-weight: 600;
+}
+img{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+.hr2{
+    margin-bottom:20px;
+    border:none;
+    background-color: rgba(255, 255, 255, 0.24);
+    height: 0.1px;
+}
+.mainpara{
+    margin-bottom: 20px;
+}
+.learnmore{
+    font-weight: 600;
+}
+.section2{
+    background-color: rgb(63, 102, 175);
+}
+.section3{
+    background-color: rgb(97, 63, 175);
+}
+footer{
+    background-color: black;
+    padding: 50px 0;
+}
+div{
+    width: 1400px;
+    margin: 0 auto;
+}
