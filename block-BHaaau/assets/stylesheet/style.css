@@ -44,21 +44,22 @@ table {
 /*custom code*/
 body{
     text-align: center;
+    line-height: 1.5;
 }
 h1{
     font-family: monospace;
     font-size: 60px;
     text-align: center;
     text-transform: capitalize;
-    padding: 50px;
+    padding: 50px 350px;
 }
-.hr{
-    display: inline-block;
-    width: 800px;
-    border-bottom:1px dashed rgba(104, 102, 102,0.2);
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+hr{
+    width: 500px;
+    border-style: dashed;
+    margin: 50px auto;
+    border-width: 0.1px;
+    border-color: grey;
+
 
 }
 h2{
@@ -66,42 +67,15 @@ h2{
     font-size: 30px;
     margin:20px;
 }
-/*#section1,#section2,#section3,#section4 {
-    width:600px;
-    BORDER:1PX;
-}*/
 .box{
-    display: inline-block;
-    text-align: center;
-}
-.box.boxl1{
-    height: 160px;
-    width: 160px;
-    background-color: lightcoral;
-    box-sizing: border-box;
-}
-.box.boxl2{
-    box-sizing: border-box;
-    height: 140px;
-    width: 140px;
-    background-color: rgb(0, 0, 0);
-    margin:10px;
-    padding:2.5px;
-}
-.box.boxl3{
-   box-sizing: border-box;
-    height: 135px;
-    width: 135px;
-    background-color: lightblue;
-    /*margin:10px;*/
-}
-.box.boxl4
-{
-box-sizing: border-box;
-height: 110px;
-width: 110px;
-background-color: rgb(224, 250, 224);
-margin:10px;
+    display:inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 20px auto;
+    background-color: rgb(224, 250, 224);
+    border: 20px solid lightblue;
+    outline: 5px solid black;
+    box-shadow: 0 0 0 20px lightcoral;
 }
 .icontext{
     margin-top: 20px;
@@ -146,10 +120,10 @@ p{
 }
 .exercise2parent {
     display: inline-block;
-    width: 610px;
+    width: 600px;
     border: 1px solid grey;
-    /*background-color: aquamarine;*/
     margin: 20px;
+    font-size: 0;
     
 }
 .noborderbox{
@@ -169,9 +143,9 @@ p{
     display: inline-block;
     width: 600px;
     border: 1px solid grey;
-    /*background-color: aquamarine;*/
     margin: 20px;
     text-align: left;
+    font-size: 0;
 }
 
 .borderbox{
@@ -182,6 +156,11 @@ p{
     background-color: grey;
     border:1px solid black;
     text-align: left;
+
+}
+.bs 
+{
+    box-sizing: border-box;
 }
 .section4para{
     margin-top: 20px;
@@ -190,10 +169,10 @@ p{
 }
 .exercise2parent2 {
     display: inline-block;
-    width: 614px;
+    width: 600px;
     border: 1px solid grey;
-    /*background-color: aquamarine;*/
     margin: 20px;
     text-align: left;
     margin-bottom: 50px;
+    font-size: 0;
 }
